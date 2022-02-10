@@ -1,0 +1,140 @@
+@media(max-width:1122px){
+    @keyframes dragonbabyegg{
+      from {}
+      to { 
+          left:25%;
+          top:21rem;
+          transform: translate(-50%,-50%) rotate(-200deg);}
+  }   
+}
+
+@media(max-width:800px){
+    @keyframes dragonbabyegg{
+      from {}
+      to { 
+          left:15%;
+          top:21rem;
+          transform: translate(-50%,-50%) rotate(-200deg);}
+  }   
+h1{
+  font-size: 45px ;
+}   
+}
+
+@media(max-width:535px){
+    @keyframes dragonbabyegg{
+      from {}
+      to { 
+          left:0rem;
+          top:21rem;
+          transform: translate(-50%,-50%) rotate(-200deg);}
+  }   
+h1{
+  font-size: 40px;
+  padding-left: 10%;
+}   
+}
+@media(max-width:535px){
+    @keyframes dragonbabyegg{
+      from {}
+      to { 
+          left:0rem;
+          top:21rem;
+          transform: translate(-50%,-50%) rotate(-200deg);}
+  }   
+h1{
+  font-size: 40px ;
+  padding-left: 10%;
+} 
+
+#nextgenDevOrg{  
+    left:55%; 
+}
+
+#nextgenDevOrg2{
+    left:55%;
+}
+
+#dinasor{
+   
+    left: 55%;
+}
+
+}
+
+@media(max-width:405px){
+    @keyframes dragonbabyegg{
+      from {}
+      to { 
+          left:0rem;
+          top:21rem;
+          transform: translate(-50%,-50%) rotate(-200deg);}
+  }   
+h1{
+  font-size: 30px ;
+  padding-left: 20%;
+} 
+
+h1::before{
+    left: 20%;
+   }  
+h1::after{
+       left: 18%;
+   }
+#nextgenDevOrg{  
+    left:60%; 
+    height: 150px;
+
+    width: 265px;
+    top:17.5rem;
+}
+#nextgenDevOrg2{
+    left:60%;
+
+    height: 150px;
+    width: 265px;
+}
+#dot1{
+    height: 70px;
+    width: 70px;
+
+    top:30px;
+    left:30px;
+ }
+ #dot1::after{  
+    height: 30px;
+    width: 30px;
+
+    top:40px;
+    left:120px;
+ }
+ #dot1::before{  
+    height: 40px;
+    width: 40px;
+
+    top:-30px;
+    left:160px;
+ }
+ #dinasor::before{
+    height: 70px;
+    width: 140px;
+
+    top:-10px;
+    left: 0px;
+}
+
+#dinasor{
+    height: 120px;
+    width: 70px;
+    left: 60%;
+}
+
+#eye:after{
+    top:120%;
+    left: 220%;
+  }
+  #dinasor::after{
+    height: 50px;
+    width: 105px;  
+}
+}

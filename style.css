@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    background-color: black;
+}
+#container{
+    position: relative;
+    height: 100vh;
+}
+#nextgenDevOrg{
+    height: 200px;
+    width: 315px;
+
+    background: orange;
+    border-radius: 500px 500px 0px 0px ;
+
+    position: absolute;
+    left:50%;
+    top:15.5rem;
+
+    transform: translate(-50%,-50%);
+    transition: 2s;
+
+    clip-path: polygon(0% 0% ,100% 0%,100% 75%,75% 100% ,50% 75% ,30% 100%,0% 75%    );
+    z-index:12;
+
+    animation:dragonbabyegg 4s 3s forwards;
+}
+@keyframes dragonbabyegg{
+    from {position: relative;}
+    to {  position: relative;
+        left:35%;
+        top:21rem;
+        transform: translate(-50%,-50%) rotate(-200deg);}
+}
+#eye:after{
+  content: "";
+
+  height: 5px;
+  width: 20px;
+
+  background-color: black;
+
+  position: absolute;
+  top:100%;
+  left: 260%;
+}
+#typinganimation{
+     height: 100px;
+    width: 500px;
+
+    position: absolute;
+    top:35rem;
+    transform: translate(-50%,-50%);
+    left: 50%;
+
+    color: white;
+   
+    font-family: sans-serif;
+    font-size: 25px;
+}
+h1{
+    width: max-content;
+    position: relative;
+}
+h1::before{
+ content: "";
+ position: absolute;
+
+ top: -2%;
+ right: -2%;
+ bottom: -1%;
+ left: 0%;
+}
+h1::after{
+    content: "";
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: -2%;
+}
+h1::before{
+   background: black;
+
+   animation: typewriter  6s steps(24)  forwards;
+}
+h1::after{
+   width: 0.525;
+
+   background:white;
+
+   animation: typewriter  6s steps(24)  forwards,
+   blink  500ms steps(24)  infinite;
+   z-index: -1;
+}
+
+@keyframes typewriter  {
+    to{ 
+        left:100%;
+    }
+}
+
+@keyframes blink{
+    to{
+        background: transparent;
+    }
+}
+#nextgenDevOrg2{
+
+    height: 200px;
+    width: 315px;
+
+    background: orange;
+    border-radius:  0px 0px  500px 500px ;
+
+    position: absolute;
+    left:50%;
+    top:25rem;
+
+    transform: translate(-50%,-50%);
+
+    z-index: 11;
+
+    clip-path: polygon(0% 0%,30% 25%, 50% 0%,75% 25% ,100% 0%, 100% 100% ,0% 100%);
+}
+#dinasor{
+    height: 200px;
+    width: 80px;
+
+    background-color: green;
+    position: absolute;
+    left:49%;
+    top:19.9rem;
+
+    transform: translate(-50%,-50%);
+    z-index: 10;
+
+    border-radius: 50px 50px 0px 0px;
+    animation-name:dragonbaby;
+    animation-duration: 4s;  
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+
+    animation: dragonbaby 3s 4s forwards ;
+}
+@keyframes dragonbaby{
+    from {top:24rem;}
+    to { 
+        top:19.9rem;}
+}
+#dinasor::before{
+    content: "";
+
+    height: 70px;
+    width: 150px;
+
+    background-color: green;
+
+    position: absolute;
+    z-index: 10;
+
+    top:-20px;
+    left: 0px;
+
+    border-radius: 50px 50px 50px 0px;
+
+    display: inline-block;
+}
+#dinasor::after{
+    content: "";
+
+    height: 60px;
+    width: 125px;
+
+    background:radial-gradient(red 10%, orange 80%);
+
+    border-radius:  0px 0px  500px 500px ;
+
+    position: absolute;
+    left:50%;
+    top:25rem;
+
+    z-index: 11;
+
+    transform: rotate(150deg);
+
+    top:-25%;
+    left:-30%;
+
+    clip-path: polygon(0% 0%,30% 25%, 50% 0%,75% 25% ,100% 0%, 100% 100% ,0% 100%); 
+}
+#eye{
+    height:25px;
+    width: 25px;
+
+    border-radius: 50%;
+    background: radial-gradient(black 30%, white 60%);
+
+    z-index: 178;
+
+    position: absolute ;
+    left: 65px;
+    top:-10px;
+}
+#dot1{
+    background:radial-gradient(red 30%, orange 70%);
+
+    height: 100px;
+    width: 100px;
+
+    position: relative;
+    top:70px;
+    left:70px;
+ }
+ #dot1::after{
+    content: "";
+
+    background:radial-gradient(red 30%, orange 70%);
+
+    height: 50px;
+    width: 50px;
+
+    position: absolute;
+    top:40px;
+    left:120px;
+ }
+ #dot1::before{
+    content: "";
+
+    background:radial-gradient(red 30%, orange 70%);
+    height: 70px;
+    width: 70px;
+
+    position: absolute;
+    top:-30px;
+    left:160px;
+ }
+
+ 
