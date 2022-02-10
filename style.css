@@ -144,7 +144,7 @@ h1::after{
     animation-delay: 3s;
     animation-fill-mode: forwards;
 
-    animation: dragonbaby 3s 4s forwards ;
+    animation: dragonbaby 4s 3s forwards ;
 }
 @keyframes dragonbaby{
     from {top:24rem;}
