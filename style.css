@@ -143,11 +143,7 @@ h1::after{
     transform: translate(-50%,-50%);
     z-index: 10;
 
-    border-radius: 50px 50px 0px 0px;
-    animation-name:dragonbaby;
-    animation-duration: 4s;  
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
+    border-radius: 50px 50px 0px 0px
 
     animation: dragonbaby 4s 3s forwards ;
 }
@@ -204,7 +200,7 @@ h1::after{
     border-radius: 50%;
     background: radial-gradient(black 30%, white 60%);
 
-    z-index: 178;
+    z-index: 15;
 
     position: absolute ;
     left: 65px;
