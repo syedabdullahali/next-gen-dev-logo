@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-
     background-color: black;
 }
 #container{
@@ -143,8 +142,6 @@ h1::after{
     transform: translate(-50%,-50%);
     z-index: 10;
 
-    border-radius: 50px 50px 0px 0px
-
     animation: dragonbaby 4s 3s forwards ;
 }
 @keyframes dragonbaby{
@@ -239,5 +236,3 @@ h1::after{
     top:-30px;
     left:160px;
  }
-
- 
