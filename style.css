@@ -7,6 +7,7 @@ body{
 #container{
     position: relative;
     height: 100vh;
+    overflow: hidden;
 }
 #nextgenDevOrg{
     height: 200px;
@@ -63,6 +64,9 @@ body{
 h1{
     width: max-content;
     position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 h1::before{
  content: "";
@@ -72,6 +76,7 @@ h1::before{
  right: -2%;
  bottom: -1%;
  left: 0%;
+ 
 }
 h1::after{
     content: "";
@@ -149,7 +154,7 @@ h1::after{
 @keyframes dragonbaby{
     from {top:24rem;}
     to { 
-        top:19.9rem;}
+        top:20rem;}
 }
 #dinasor::before{
     content: "";

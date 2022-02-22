@@ -25,74 +25,63 @@ h1{
     @keyframes dragonbabyegg{
       from {}
       to { 
-          left:0rem;
+          left:5%;
           top:21rem;
           transform: translate(-50%,-50%) rotate(-200deg);}
   }   
-h1{
-  font-size: 40px;
-  padding-left: 10%;
-}   
-}
-@media(max-width:535px){
-    @keyframes dragonbabyegg{
-      from {}
-      to { 
-          left:0rem;
-          top:21rem;
-          transform: translate(-50%,-50%) rotate(-200deg);}
-  }   
-h1{
-  font-size: 40px ;
-  padding-left: 10%;
-} 
+
 
 #nextgenDevOrg{  
-    left:55%; 
+    left:50%; 
 }
 
 #nextgenDevOrg2{
-    left:55%;
+    left:50%;
 }
 
 #dinasor{
    
-    left: 55%;
+    left: 50%;
 }
+h1{
+  
+  font-size: 40px;
+}
+
+
 
 }
 
-@media(max-width:405px){
+@media(max-width:450px){
     @keyframes dragonbabyegg{
       from {}
       to { 
-          left:0rem;
+          left:-1rem;
           top:21rem;
           transform: translate(-50%,-50%) rotate(-200deg);}
   }   
-h1{
-  font-size: 30px ;
-  padding-left: 20%;
-} 
 
-h1::before{
-    left: 20%;
-   }  
-h1::after{
-       left: 18%;
+  h1{
+   
+    font-size: 30px;
+  } 
+  
+
+  h1::before{
+    bottom: -5px;    
    }
+  
 #nextgenDevOrg{  
-    left:60%; 
-    height: 150px;
 
-    width: 265px;
-    top:17.5rem;
+    height: 180px;
+    width: 300px;
+    top:13rem;
 }
 #nextgenDevOrg2{
-    left:60%;
 
-    height: 150px;
-    width: 265px;
+    height: 180px;
+    width: 300px;
+    top:22rem;
 }
 #dot1{
     height: 70px;
@@ -112,21 +101,21 @@ h1::after{
     height: 40px;
     width: 40px;
 
-    top:-30px;
+    top:-10px;
     left:160px;
  }
  #dinasor::before{
     height: 70px;
     width: 140px;
 
-    top:-10px;
+    top:-20px;
     left: 0px;
 }
 
 #dinasor{
-    height: 120px;
+    height: 160px;
     width: 70px;
-    left: 60%;
+    top:18rem;
 }
 
 #eye:after{
@@ -136,5 +125,18 @@ h1::after{
   #dinasor::after{
     height: 50px;
     width: 105px;  
+}
+@keyframes dragonbaby{
+  from {top:20rem;}
+  to { 
+      top:17rem;}
+}
+
+h1{
+  width: max-content;
+  position: relative;
+  top:15%;
+  left:50%;
+  transform: translate(-50%,-50%);
 }
 }
