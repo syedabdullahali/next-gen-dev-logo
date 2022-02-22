@@ -1,0 +1,142 @@
+@media(max-width:1122px){
+    @keyframes dragonbabyegg{
+      from {}
+      to { 
+          left:25%;
+          top:21rem;
+          transform: translate(-50%,-50%) rotate(-200deg);}
+  }   
+}
+
+@media(max-width:800px){
+    @keyframes dragonbabyegg{
+      from {}
+      to { 
+          left:15%;
+          top:21rem;
+          transform: translate(-50%,-50%) rotate(-200deg);}
+  }   
+h1{
+  font-size: 45px ;
+}   
+}
+
+@media(max-width:535px){
+    @keyframes dragonbabyegg{
+      from {}
+      to { 
+          left:5%;
+          top:21rem;
+          transform: translate(-50%,-50%) rotate(-200deg);}
+  }   
+
+
+#nextgenDevOrg{  
+    left:50%; 
+}
+
+#nextgenDevOrg2{
+    left:50%;
+}
+
+#dinasor{
+   
+    left: 50%;
+}
+h1{
+  
+  font-size: 40px;
+}
+
+
+
+}
+
+@media(max-width:450px){
+    @keyframes dragonbabyegg{
+      from {}
+      to { 
+          left:-1rem;
+          top:21rem;
+          transform: translate(-50%,-50%) rotate(-200deg);}
+  }   
+
+  h1{
+   
+    font-size: 30px;
+  } 
+  
+
+  h1::before{
+    bottom: -5px;    
+   }
+  
+#nextgenDevOrg{  
+
+    height: 180px;
+    width: 300px;
+    top:13rem;
+}
+#nextgenDevOrg2{
+
+    height: 180px;
+    width: 300px;
+    top:22rem;
+}
+#dot1{
+    height: 70px;
+    width: 70px;
+
+    top:30px;
+    left:30px;
+ }
+ #dot1::after{  
+    height: 30px;
+    width: 30px;
+
+    top:40px;
+    left:120px;
+ }
+ #dot1::before{  
+    height: 40px;
+    width: 40px;
+
+    top:-10px;
+    left:160px;
+ }
+ #dinasor::before{
+    height: 70px;
+    width: 140px;
+
+    top:-20px;
+    left: 0px;
+}
+
+#dinasor{
+    height: 160px;
+    width: 70px;
+    top:18rem;
+}
+
+#eye:after{
+    top:120%;
+    left: 220%;
+  }
+  #dinasor::after{
+    height: 50px;
+    width: 105px;  
+}
+@keyframes dragonbaby{
+  from {top:20rem;}
+  to { 
+      top:17rem;}
+}
+
+h1{
+  width: max-content;
+  position: relative;
+  top:15%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+}
